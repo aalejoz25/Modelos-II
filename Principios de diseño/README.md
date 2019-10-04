@@ -1,2 +1,2 @@
 # Pool de Figuras
-* Alvaro Zarabanda (20161020507) 
+Implementacion de principios de diseño para hacer un pool de figuras
