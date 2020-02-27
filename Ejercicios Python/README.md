@@ -33,7 +33,9 @@ leído desde el teclado es par o impar<br>[Solucion](https://github.com/aalejoz9
 * 2.) Escriba un programa que calcule el factorial de un numero usando recursividad<br>[Solucion](https://github.com/aalejoz99/Modelos-II/blob/master/Ejercicios%20Python/Recursividad/Ejercicio%2076.py)
 
 * _MODULOS_
-* 1.) Crear un módulo de funciones aritméticas que realicen las operaciones de suma, resta, multiplicación, división y potencia de enteros, escribir un programa que importe este módulo y use estas funciones para operar con números capturados desde el teclado.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/tree/master/Ejercicios%20Python/Modulos/Ejercicio%2081)   
+* 1.) Crear un módulo de funciones aritméticas que realicen las operaciones de suma, resta, multiplicación, división y potencia de enteros, escribir un programa que importe este módulo y use estas funciones para operar con números capturados desde el teclado.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/tree/master/Ejercicios%20Python/Modulos/Ejercicio%2081)
+* 2.) Crear un módulo que maneje funciones para operar en sistema binario, las operaciones que
+se deben implementar son suma, resta, multiplicación y división.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/tree/master/Ejercicios%20Python/Modulos/Ejercicio%2083)
 
 
 
