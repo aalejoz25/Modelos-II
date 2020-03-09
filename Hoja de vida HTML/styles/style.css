@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+.note {
+  color: red;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,30 +19,61 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 header {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nombre {
+  text-align: center;
+  margin: 3% 0 3% 0;
   width: 100%;
 }
 
-.perfilProfesional {
-  width: 100%;
+header .profile {
+  width: 20%;
 }
 
-.infoAcademica {
-  width: 100%;
+header .profile .profilePhoto {
+  border-radius: 50%;
 }
 
-.experienciaLaboral {
-  width: 100%;
-}
-
-.referencias {
-  width: 100%;
-}
-
-footer {
-  width: 100%;
+section {
+  width: 90%;
+  margin: 3% 0 3% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
