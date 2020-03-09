@@ -7,27 +7,58 @@
   box-sizing: border-box;
 }
 
+.note{
+    color: red;
+}
+
 body {
   display: flex;
   flex-flow: row wrap;
-  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  width: 100%
 }
 
 header {
-  width: 100%;
+    width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .nombre{
+      text-align: center;
+      margin: 3% 0 3% 0;
+      width: 100%;
+  }
+  .profile{
+      width: 20%;
+    .profilePhoto{
+        border-radius: 50%;
+    }
+  }
 }
+
+section{
+    width: 90%;
+    margin: 3% 0 3% 0;
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .perfilProfesional {
-  width: 100%;
+  
 }
 .infoAcademica {
-  width: 100%;
+  
 }
 .experienciaLaboral {
-  width: 100%;
+  
 }
 .referencias {
-  width: 100%;
+  
 }
 footer {
-  width: 100%;
+  
 }
