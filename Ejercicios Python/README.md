@@ -37,5 +37,18 @@ leído desde el teclado es par o impar<br>[Solucion](https://github.com/aalejoz9
 * 2.) Crear un módulo que maneje funciones para operar en sistema binario, las operaciones que
 se deben implementar son suma, resta, multiplicación y división.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/tree/master/Ejercicios%20Python/Modulos/Ejercicio%2083)
 
+* _ARCHIVOS_
+* 1.) Escribir un programa que escriba la lista de caracteres ASCII dentro de un archivo de texto.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/blob/master/Ejercicios%20Python/Archivos/Ejercicio%2086.py)
+* 2.) Escribir un programa que lea y muestre en pantalla el archivo generado en el ejercicio
+anterior.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/blob/master/Ejercicios%20Python/Archivos/Ejercicio%2087.py)
+
+* _EJERCICIOS VARIOS_
+* 1.) Escribir un programa que lea un tiempo en horas, minutos y segundos y empiece a
+cronometrar el tiempo mostrándolo en pantalla hasta llegar al limite leído al inicio.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/blob/master/Ejercicios%20Python/Ejercicios%20varios/Ejercicio%2090.py)
+* 2.) Escribir un programa que implemente un calendario perpetuo, es decir, que dado una fecha
+en formato mes, día y año le retorne al usuario el día de la semana que corresponde para esta
+fecha.<br>[Solucion](https://github.com/aalejoz99/Modelos-II/blob/master/Ejercicios%20Python/Ejercicios%20varios/Ejercicio%2093.py)
+
+
 
 
