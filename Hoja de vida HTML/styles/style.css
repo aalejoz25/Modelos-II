@@ -1,17 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
-.note {
-  color: red;
-}
-
-body {
+body, header, section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,21 +33,34 @@ body {
   width: 100%;
 }
 
+/* Coolors Exported Palette - coolors.co/fcde9c-ffa552-ba5624-381d2a-c4d6b0 */
+/* HSL */
+/* RGB */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.note {
+  color: #381d2a;
+}
+
+.titulo {
+  width: 100%;
+  margin: 3% 0 2% 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcde9c), to(#c4d6b0));
+  background-image: linear-gradient(#fcde9c, #c4d6b0);
+  color: #ba5624;
+}
+
 header {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 header .nombre {
@@ -62,18 +80,19 @@ header .profile .profilePhoto {
 section {
   width: 90%;
   margin: 3% 0 3% 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.infoAcademica {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.referencias {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer {
+  margin: 3% 0 2% 0;
 }
 /*# sourceMappingURL=style.css.map */
