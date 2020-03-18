@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "../styles/common";
+@import "./palette";
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.note {
+  color: $color4;
+}
+.titulo {
+  width: 100%; 
+  margin: 3% 0 2% 0;
+}
+
+body {
+  @extend %FlexRowWrap;
+  background-image: linear-gradient($color1,$color5);
+  color: $color3;
+}
+
+header {
+  @extend %FlexRowWrap;
+  width: 80%;
+  .nombre {
+    text-align: center;
+    margin: 3% 0 3% 0;
+    width: 100%;
+  }
+  .profile {
+    width: 20%;
+    .profilePhoto {
+      border-radius: 50%;
+    }
+  }
+}
+
+section {
+  width: 90%;
+  margin: 3% 0 3% 0;
+  @extend %FlexRowWrap;
+}
+
+.perfilProfesional {
+}
+.infoAcademica {
+  justify-content: space-around;
+}
+.experienciaLaboral {
+}
+.referencias {
+  justify-content: space-around;
+}
+footer {
+  @extend %FlexColumnNoWrap;
+  margin: 3% 0 2% 0;
+}
