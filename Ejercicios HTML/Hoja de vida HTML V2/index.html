@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Ingreso de datos</title>
+    <title id="title">Ingreso de datos</title>
     <script src="js\functions.js"></script>
 </head>
 
@@ -26,6 +26,12 @@
                 <td>Email</td>
                 <td><input type="text" id="mail"></td>
             </tr>
+
+            <tr>
+                <td>Identificacion</td>
+                <td><input type="number" id="idN"></td>
+            </tr>
+
             <tr>
                 <td>Edad</td>
                 <td><input type="number" id="age">
@@ -33,7 +39,7 @@
             </tr>
             <tr>
                 <td>Perfil Profesional</td>
-                <td><input type="text" id="profile"></td>
+                <td><textarea id="profile"></textarea></td>
             </tr>
             <tr>
                 <td class="academic_inf">Informacion Academica</td>
@@ -70,7 +76,7 @@
             </tr>
 
             <tr>
-                <td class="P_References">Referencias Personales</td>
+                <td class="P_References">Referencia Personal</td>
                 <td>
                     <div class="referencia">
                         <p class="title">Nombre: <input type="text" id="rname"> </p>
@@ -81,7 +87,7 @@
             </tr>
 
             <tr>
-                <td class="F_References">Referencias Familiares</td>
+                <td class="F_References">Referencia Familiar</td>
                 <td>
                     <div class="referencia">
                         <p class="title">Nombre: <input type="text" id="fname"> </p>
@@ -93,16 +99,18 @@
 
 
             <tr>
-                <td colspan="2"><input type="button" value="Guardar datos" onclick="MostrarMensaje()" />
-                    <input type="button" value="Ver hoja de vida" onclick="" />
+                <td colspan="2">
+                    <input type="button" value="Guardar datos" onclick="guardarDatos()" />
+                    <input type="button" value="Ver hoja de vida" onclick="window.location.href = 'CV_template.html'" />
                 </td>
             </tr>
         </table>
     </form>
+    <p id="saveconfirm"></p>
 </body>
 
 <footer>
-    <p class="autores">ALVARO | JORGE | DANIELA</p>
+    <p class=" autores ">ALVARO | JORGE | DANIELA</p>
     <p>Universidad Distrital Francisco Jose de Caldas</p>
 </footer>
 

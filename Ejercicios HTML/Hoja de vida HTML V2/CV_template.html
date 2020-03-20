@@ -3,21 +3,23 @@
 
 <head>
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>HV Alvaro Zarabanda</title>
+    <script src="js\functions.js"></script>
+    <title id="tt">Template</title>
 </head>
 
 <body>
+    <input type="button" value="Ver datos" onclick="obtenerdatos()" />
     <header>
-        <h1 class="nombre">ALVARO ALEJANDRO ZARABANDA GUTIERREZ</h1>
+        <h1 class="nombre" id="name"></h1>
         <div class="profile">
-            <img class="profilePhoto" src="images/alvaro's_photo.png" width="130" height="200" />
+            <img class="profilePhoto" src="" width="130" height="200" />
         </div>
         <div class="datosPersonales">
             <h2 class="tituloDatosPersonales">DATOS PERSONALES</h2>
-            <p class="celular"><span class="note">Cel:</span> 3223912541</p>
-            <p class="email"><span class="note">e-mail:</span> alvaroalejo25@gmail.com</p>
-            <p class="identificacion"><span class="note">Identificación:</span>&nbsp;1.018.511.461 de Bogota</p>
-            <p class="edad"><span class="note">Edad:</span>&nbsp;20 años</p>
+            <p class="celular" id="cel"><span class="note">Cel:</span> </p>
+            <p class="email" id="mail"><span class="note">e-mail:</span> </p>
+            <p class="identificacion" id="CC"><span class="note">Identificación:</span>&nbsp;</p>
+            <p class="edad" id="age"><span class="note">Edad:</span>&nbsp;</p>
         </div>
 
     </header>
@@ -26,58 +28,37 @@
     <section class="perfilProfesional">
         <article class="profesional">
             <h2 class="titulo">PERFIL PROFESIONAL</h2>
-            <p class="descripctionProfesional">
-                Me considero una persona con una gran capacidad de aprendizaje, honesto y respetuoso, capaz de afrontar cualquier reto o adversidad que se presente, soy una persona responsable que tiene buena capacidad para trabajar en equipo
-            </p>
+            <p class="descripctionProfesional" id="descripcion"> </p>
         </article>
     </section>
 
     <section class="infoAcademica">
         <h2 class="titulo">INFORMACION ACADEMICA</h2>
         <div class="groupAcademico">
-            <h2 class="titulo">Basica Primaria</h2>
-            <p class="institucion">Instituto Pedagogico los Alamos</p>
-            <span class="tiempo">(2003 - 2015)</span>
+            <h2 class="titulo" id="nivel"></h2>
+            <p class="institucion" id="inst">Instituto Pedagogico los Alamos</p>
+            <span class="tiempo" id="time"></span>
             <ul class="relevantes">
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
+                <li class="datoRelevate" id="d1"></li>
+                <li class="datoRelevate" id="d2"></li>
+                <li class="datoRelevate" id="d3"></li>
             </ul>
         </div>
-        <div class="groupAcademico">
-            <h2 class="titulo">Bachillerato</h2>
-            <p class="institucion">Colegio Mercedario San Pedro Nolasco</p>
-            <span class="tiempo">(2003 - 2015)</span>
-            <ul class="relevantes">
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
-            </ul>
-        </div>
-        <div class="groupAcademico">
-            <h2 class="titulo">Universidad</h2>
-            <p class="institucion">Universidad Distrital Francisco José de Caldas</p>
-            <span class="tiempo">Estudiante de 5 semestre</span>
-            <ul class="relevantes">
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
-                <li class="datoRelevate">xxxx</li>
-            </ul>
-        </div>
+
 
     </section>
 
     <section class="experienciaLaboral">
         <h2 class="titulo">EXPERCIENCIA LABORAL</h2>
         <div class="grupoLaboral">
-            <h2 class="titulo">Atencion al Cliente</h2>
-            <p class="lugar_empresa">Papeleria Copytech</p>
-            <p class="jefe">Clara Ortiz</p>
-            <span class="tiempo">(2016 - 2017)</span>
+            <h2 class="titulo" id="labor"></h2>
+            <p class="lugar_empresa" id="place"></p>
+            <p class="jefe" id="boss"></p>
+            <span class="tiempo" id="ltime">(2016 - 2017)</span>
             <ul class="cargos">
-                <li class="cargo">Caja</li>
-                <li class="cargo">xxxx</li>
-                <li class="cargo">xxxx</li>
+                <li class="cargo" id="c1"></li>
+                <li class="cargo" id="c2"></li>
+                <li class="cargo" id="c3"></li>
             </ul>
 
         </div>
@@ -85,25 +66,21 @@
     </section>
 
     <section class="referencias">
-        <h2 class="titulo">REFERENCIAS PERSONALES</h2>
+        <h2 class="titulo">REFERENCIA PERSONAL</h2>
         <div class="referencia">
-            <h2 class="title">VICTOR BELTRAN</h2>
-            <p class="profesion">Abogado independiente</p>
-            <p class="telefono">3134589789</p>
+            <h2 class="title" id="rname"></h2>
+            <p class="profesion" id="rjob"></p>
+            <p class="telefono" id="rcel"></p>
         </div>
 
-        <h2 class="titulo">REFERENCIAS FAMILIARES</h2>
+        <h2 class="titulo">REFERENCIA FAMILIAR</h2>
         <div class="referencia">
-            <h2 class="title">ANA GUTIERREZ</h2>
-            <p class="profesion">Contadora Publica</p>
-            <p class="telefono">3178290435</p>
+            <h2 class="title" id="fname"></h2>
+            <p class="profesion" id="fjob"></p>
+            <p class="telefono" id="fcel"></p>
         </div>
 
-        <div class="referencia">
-            <h2 class="title">CLARA ORTIZ</h2>
-            <p class="profesion">Ama de casa</p>
-            <p class="telefono">3155828547</p>
-        </div>
+
 
     </section>
 
