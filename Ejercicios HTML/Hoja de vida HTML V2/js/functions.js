@@ -1,4 +1,5 @@
 function guardarDatos() {
+    localStorage.profileimage = document.getElementById("image").value;
     /*Guarda datos basicos*/
     localStorage.nombre = document.getElementById("nombre").value;
     localStorage.celular = document.getElementById("cel").value;
@@ -33,6 +34,7 @@ function guardarDatos() {
 
     document.getElementById("saveconfirm").innerHTML = "Sus datos se han guardado en Localstorage";
 }
+
 
 function obtenerdatos() {
     /*inserta datos basicos*/
